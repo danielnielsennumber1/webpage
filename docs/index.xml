@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CrossProduct</title>
-    <link>https://www.crossproduct.dk/</link>
+    <link>http://www.crossproduct.dk/</link>
     <description>Recent content on CrossProduct</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>daniel.nielsen85@gmail.com</managingEditor>
     <webMaster>daniel.nielsen85@gmail.com</webMaster>
     
-	<atom:link href="https://www.crossproduct.dk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.crossproduct.dk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>https://www.crossproduct.dk/page/about/</link>
+      <link>http://www.crossproduct.dk/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>daniel.nielsen85@gmail.com</author>
-      <guid>https://www.crossproduct.dk/page/about/</guid>
+      <guid>http://www.crossproduct.dk/page/about/</guid>
       <description>My name is Inigo Montoya. I have the following qualities:
  I rock a great mustache I&amp;rsquo;m extremely loyal to my family  What else do you need?
 my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
@@ -24,10 +24,10 @@ my history To be honest, I&amp;rsquo;m having some trouble remembering right now
     
     <item>
       <title>Contact</title>
-      <link>https://www.crossproduct.dk/page/contact/</link>
+      <link>http://www.crossproduct.dk/page/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>daniel.nielsen85@gmail.com</author>
-      <guid>https://www.crossproduct.dk/page/contact/</guid>
+      <guid>http://www.crossproduct.dk/page/contact/</guid>
       <description>Send  Great! We have got your details and someone will be in touch. $(document).ready(function(){ console.log(&amp;ldquo;test0&amp;rdquo;); $(&amp;lsquo;#contact&amp;rsquo;).submit(function(event) { event.preventDefault(); console.log(&amp;ldquo;test&amp;rdquo;); console.log($(&amp;lsquo;#message&amp;rsquo;).val()) $.ajax({ dataType: &amp;ldquo;json&amp;rdquo;, method: &amp;ldquo;POST&amp;rdquo;, url: &amp;ldquo;//formspree.io/daniel.nielsen85@gmail.com&amp;rdquo;, data: { message: $(&amp;lsquo;#message&amp;rsquo;).val(), email: $(&amp;lsquo;#email&amp;rsquo;).val(), _subject: &amp;ldquo;CrossProduct - Contact Form&amp;rdquo;, name: $(&amp;lsquo;#name&amp;rsquo;).val() } }).done(function(data) { $(&amp;lsquo;#contact&amp;rsquo;).remove(); $(&amp;lsquo;.alert&amp;rsquo;).fadeIn(); }); event.preventDefault(); }); });</description>
     </item>
     
