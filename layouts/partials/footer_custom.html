@@ -1,0 +1,32 @@
+<!--
+If you want to include any custom html just before </body>, put it in this file.
+Or you can delete these file if you don't need it.
+-->
+<!-- for example, you could include some js libraries:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.js" integrity="sha256-HdIuWBZj4eftihsoDCJoMYjZi6aNVaw7YlUpzKT3ZxI=" crossorigin="anonymous"></script>
+-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        console.log("test0");
+      $('#contact').submit(function(event) {
+          event.preventDefault();
+          console.log("test");
+          console.log($('#message').val())
+        $.ajax({
+          dataType: "json",
+          method: "POST",
+          url: "//formspree.io/daniel.nielsen85@gmail.com",
+          data: {
+            message: $('#message').val(),
+            email: $('#email').val(),
+            _subject: "Your Site - Contact Form",
+            name: $('#name').val()
+          }
+        }).done(function(data) {
+          $('#contact').remove();
+          $('.alert').fadeIn();
+        });
+        event.preventDefault();
+      });
+    });
+    </script>
