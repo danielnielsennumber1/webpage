@@ -1,4 +1,4 @@
-baseurl = "http://www.crossproduct.dk/"
+baseurl = "https://www.crossproduct.dk/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "CrossProduct"
